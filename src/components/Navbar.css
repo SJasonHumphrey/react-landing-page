@@ -1,0 +1,9 @@
+.navbar {
+    position: sticky;
+    top: 0px;
+    height: 70px;
+    background-color: black;
+    opacity: 0.75;
+    display: flex;
+    justify-self: space-between;
+}
