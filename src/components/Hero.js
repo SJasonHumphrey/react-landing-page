@@ -5,7 +5,7 @@ const Hero = ({imageSrc}) => {
     return(
         <div className='hero'>
             <img src={imageSrc} alt='Travel' className='hero_image'/>
-            <h1 className='hero_title'>Travel Your Imagination.</h1>
+            <h1 className='hero_title'>Travel <span className='text-color'>Your</span> Imagination.</h1>
         </div>
     )
 };

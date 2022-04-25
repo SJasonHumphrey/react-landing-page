@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
 .navbar {
     position: sticky;
     top: 0px;
@@ -15,26 +17,21 @@
   .navbar_logo {
     color: white;
     font-size: 2.5rem;
+    font-family: 'Water Brush', cursive;
   }
   
-  /*
-    This is the container for all the navbar links ( <ul> )
-    */
+
   .navbar_list {
     display: flex;
     list-style: none;
   }
   
-  /*
-    This is a single item ( <li> ) in the list
-    */
+
   .navbar_item {
     white-space: nowrap;
   }
   
-  /*
-    The anchor tag ( <a> ) for the navbar links
-    */
+
   .navbar_link {
     font-size: 0.85rem;
     text-decoration: none;
@@ -49,7 +46,7 @@
   }
   
   .navbar_link:hover {
-    border-color: white;
+    border-color: #70e000;
     transition: 250ms;
   }
   
